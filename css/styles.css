@@ -1,0 +1,676 @@
+/* Theme Hex Codes
+
+#00A7C5
+#f8bf28
+#F5CBF3
+#A6DEF9
+#BFD7DB 
+
+*/
+
+
+/* General */
+
+body {
+	background: #00A7C5;
+	color: #000;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+	width: 924px;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+iframe {
+		margin-bottom: 10%;
+}
+
+/* Typography */
+
+
+
+h1, h2 {
+	font-family: 'Cinzel';
+	color: #000;
+	font-weight: normal;
+	line-height: 44px;
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	font-size: 60px;
+	padding: 0 0 40px;
+	text-decoration: underline dashed #f8bf28;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+h3 {
+	font-family: 'Cinzel';
+	font-size: 30px;
+	text-align: center;
+}
+
+a:link {
+	color: #f8bf28;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #BFD7DB;
+	font-size: 16px;
+}
+
+a:hover {
+	font-size: 20px;
+	color: #BFD7DB;
+}
+
+hr {
+	border: none;
+	height: 33px;
+	width: 333px;
+	margin: 30px auto;
+	background: url('../images/scarlet.png') center center no-repeat;
+}
+
+blockquote {
+	font-family: 'Cinzel';
+	color: #BFD7DB;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+
+/* Desktop */
+
+@media screen and (min-width: 1365px) {
+/* Nav Bar*/
+
+nav {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 15%;
+	height: 100%;
+	background: #f8bf28 url('../images/finn.png') center center no-repeat;
+	font-weight: bold;
+}
+
+nav li {
+	font-family: 'Cinzel';
+	font-size: 40px;
+}
+
+nav ul{
+	list-style-type: none;
+	margin-left: -20px;
+}
+
+nav a:link {
+	color: #000;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+nav a:visited {
+	color: #000;
+	font-size: 30px;
+}
+
+nav a:hover {
+	font-size: 40px;
+	color: #000;
+}
+
+/* Hero */
+.namelogo {
+	width: 800px;
+	height: 318px;
+	background: url('../images/at-logo.png') top center no-repeat;
+	text-indent: -9999px;
+	margin: 0 20px;
+}
+
+/* Aside */
+
+aside {
+	background: url('../images/pancake.png') bottom right no-repeat;
+	position: relative;
+	float: right;
+	height: auto;
+	width: 52%;
+	font-weight: bold;
+}
+
+aside ul{
+	list-style-type: none;
+	margin-left: -20px;
+}
+
+aside h3{
+	color:#f8bf28;
+	text-decoration: overline;
+}
+/* Footer */
+
+footer {
+	background: #f8bf28 url('../images/jake-footer.jpg') top left no-repeat;
+	color: #000;
+	position: relative;
+	margin-top: -20px;
+	height: 250px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	overflow: auto;
+}
+
+footer li:hover {
+		animation: shake 0.5s;
+		animation-iteration-count: infinite;
+		background: url('../images/pancake-small.png') center no-repeat;
+}
+@keyframes shake {
+		0% { transform: translate(1px, 1px) rotate(0deg); }
+		10% { transform: translate(-1px, -2px) rotate(-1deg); }
+		20% { transform: translate(-3px, 0px) rotate(1deg); }
+		30% { transform: translate(3px, 2px) rotate(0deg); }
+		40% { transform: translate(1px, -1px) rotate(1deg); }
+		50% { transform: translate(-1px, 2px) rotate(-1deg); }
+		60% { transform: translate(-3px, 1px) rotate(0deg); }
+		70% { transform: translate(3px, 1px) rotate(-1deg); }
+		80% { transform: translate(-1px, -1px) rotate(1deg); }
+		90% { transform: translate(1px, 2px) rotate(0deg); }
+		100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+#copyright {
+	float: right;
+	margin-top: -25px;
+	margin-right: 20px;
+	font-size: 1em;
+}
+
+#social {
+	float: right;
+	margin-left: 40%;
+	padding-bottom: 10px;
+}
+
+#social li {
+	display: inline-block;
+	text-decoration: none;
+}
+
+/* clearfix */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+}
+
+
+/****************************/
+/****************************/
+/****************************/
+/****************************/
+
+
+/* Laptop */
+
+@media screen and (max-width: 1364px) and (min-width: 1024px) {
+
+	/* Nav Bar*/
+	
+	nav {
+		position: fixed;
+		top: 0;
+		right: 0;
+		width: 12%;
+		height: 100%;
+		background: #f8bf28 url('../images/finn.png') center center no-repeat;
+		font-weight: bold;
+	}
+	
+	nav li {
+		font-family: 'Cinzel';
+		font-size: 16px;
+		margin-top: 20px;
+	}
+	
+	nav ul{
+		list-style-type: none;
+		margin-left: -20px;
+		margin-top: 50px;
+	}
+	
+	nav a:link {
+		color: #000;
+		font-size: 16px;
+		text-decoration: none;
+	}
+	
+	nav a:visited {
+		color: #000;
+		font-size: 16px;
+	}
+	
+	nav a:hover {
+		text-decoration: underline dashed 5px #00A7C5;
+	}
+	
+	/* Hero */
+	.namelogo {
+		width: 800px;
+		height: 318px;
+		background: url('../images/at-logo.png') top center no-repeat;
+		text-indent: -9999px;
+		margin: 0 20px;
+	}
+
+	/* Main */
+
+	section {
+		margin-right: 10%;
+	}
+
+	/* Aside */
+	
+	aside {
+		background: url('../images/pancake.png') bottom right no-repeat;
+		position: relative;
+		float: right;
+		height: auto;
+		width: 52%;
+		font-weight: bold;
+	}
+	
+	aside ul{
+		list-style-type: none;
+		margin-left: -20px;
+	}
+	
+	aside h3{
+		color:#f8bf28;
+		text-decoration: overline;
+	}
+	/* Footer */
+	
+	footer {
+		background: #f8bf28 url('../images/jake-footer.jpg') top left no-repeat;
+		color: #000;
+		position: relative;
+		margin-top: -20px;
+		height: 250px;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+		overflow: auto;
+	}
+	
+	footer li:hover {
+			animation: shake 0.5s;
+			animation-iteration-count: infinite;
+			background: url('../images/pancake-small.png') center no-repeat;
+	}
+	@keyframes shake {
+			0% { transform: translate(1px, 1px) rotate(0deg); }
+			10% { transform: translate(-1px, -2px) rotate(-1deg); }
+			20% { transform: translate(-3px, 0px) rotate(1deg); }
+			30% { transform: translate(3px, 2px) rotate(0deg); }
+			40% { transform: translate(1px, -1px) rotate(1deg); }
+			50% { transform: translate(-1px, 2px) rotate(-1deg); }
+			60% { transform: translate(-3px, 1px) rotate(0deg); }
+			70% { transform: translate(3px, 1px) rotate(-1deg); }
+			80% { transform: translate(-1px, -1px) rotate(1deg); }
+			90% { transform: translate(1px, 2px) rotate(0deg); }
+			100% { transform: translate(1px, -2px) rotate(-1deg); }
+	}
+	#copyright {
+		float: right;
+		margin-top: -25px;
+		margin-right: 20px;
+		font-size: 1em;
+	}
+	
+	#social {
+		float: right;
+		margin-left: 40%;
+		padding-bottom: 10px;
+	}
+	
+	#social li {
+		display: inline-block;
+		text-decoration: none;
+	}
+	
+	/* clearfix */
+	
+	.clearfix:after {
+		visibility: hidden;
+		display: block;
+		content: "";
+		clear: both;
+		height: 0;
+		}
+	}
+
+
+
+/****************************/
+/****************************/
+/****************************/
+/****************************/
+
+
+/* Tablet */
+
+@media screen and (max-width: 768px) and (min-width: 426px) { 
+
+	.container {
+		max-width: 500px;
+		margin-left: 10%;
+		padding: 1em;
+	}
+
+	/* Nav Bar*/
+	
+	nav {
+		position: fixed;
+		background: #f8bf28;
+		font-weight: bold;
+		height: 75px;
+		top: 0;
+		margin-left: -20%;
+		padding-left: 5em;
+		width: 100%;
+	}
+	
+	nav li {
+		font-family: 'Cinzel';
+		font-size: 16px;
+	}
+	
+	nav ul{
+		list-style-type: none;
+		margin-right: 30%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+	
+	nav a:link {
+		color: #000;
+		font-size: 16px;
+		text-decoration: none;
+	}
+	
+	nav a:visited {
+		color: #000;
+		font-size: 16px;
+	}
+	
+	nav a:hover {
+		text-decoration: underline dashed 5px #00A7C5;
+	}
+	
+	/* Hero */
+	.namelogo {
+		display: none;
+	}
+
+	/* Main */
+
+	section {
+		margin-right: 10%;
+	}
+
+	/* Aside */
+	
+	aside {
+		position: relative;
+		float: right;
+		height: auto;
+		width: 52%;
+		font-weight: bold;
+	}
+	
+	aside ul{
+		list-style-type: none;
+		margin-left: -20px;
+	}
+	
+	aside h3{
+		color:#f8bf28;
+		text-decoration: overline;
+	}
+	/* Footer */
+	
+	footer {
+		background: #f8bf28;
+		color: #000;
+		position: relative;
+		margin-top: -20px;
+		height: 200px;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+		overflow: auto;
+	}
+	
+	footer li:hover {
+			animation: shake 0.5s;
+			animation-iteration-count: infinite;
+			background: url('../images/pancake-small.png') center no-repeat;
+	}
+	@keyframes shake {
+			0% { transform: translate(1px, 1px) rotate(0deg); }
+			10% { transform: translate(-1px, -2px) rotate(-1deg); }
+			20% { transform: translate(-3px, 0px) rotate(1deg); }
+			30% { transform: translate(3px, 2px) rotate(0deg); }
+			40% { transform: translate(1px, -1px) rotate(1deg); }
+			50% { transform: translate(-1px, 2px) rotate(-1deg); }
+			60% { transform: translate(-3px, 1px) rotate(0deg); }
+			70% { transform: translate(3px, 1px) rotate(-1deg); }
+			80% { transform: translate(-1px, -1px) rotate(1deg); }
+			90% { transform: translate(1px, 2px) rotate(0deg); }
+			100% { transform: translate(1px, -2px) rotate(-1deg); }
+	}
+	#copyright {
+		float: left;
+		margin-top: -25px;
+		margin-right: 20px;
+		font-size: 1em;
+	}
+	
+	#social {
+		float: left;
+		padding-bottom: 5em;
+	}
+	
+	#social ul {
+		margin-top: -1em;
+	}
+
+	#social li {
+		display: inline-block;
+		text-decoration: none;
+		margin-bottom: 2em;
+	}
+	
+	/* clearfix */
+	
+	.clearfix:after {
+		visibility: hidden;
+		display: block;
+		content: "";
+		clear: both;
+		height: 0;
+		}
+	}
+
+
+
+
+
+
+
+/****************************/
+/****************************/
+/****************************/
+/****************************/
+
+
+/* Mobile */
+
+@media screen and (max-width: 425px) { 
+
+	.container {
+		margin-left: 30%;
+		margin-top: 20%;
+		padding: 0;
+		max-width: 100%;
+	}
+	/* Nav Bar*/
+	
+	nav {
+		position: fixed;
+		background: #f8bf28;
+		font-weight: bold;
+		top: 0;
+		width: 100%;
+		margin-left: -20%;
+		padding-left: 1em;
+	}
+	
+	nav li {
+		font-family: 'Cinzel';
+		font-size: 16px;
+		align-self: center;
+		padding: 0 1em;
+	}
+	
+	nav ul{
+		list-style-type: none;
+		padding: 0, 2px;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+	}
+	
+	nav a:link {
+		color: #000;
+		font-size: 16px;
+		text-decoration: none;
+	}
+	
+	nav a:visited {
+		color: #000;
+		font-size: 16px;
+	}
+	
+	nav a:hover {
+		text-decoration: underline dashed 5px #00A7C5;
+	}
+	
+	/* Hero */
+	.namelogo {
+		display: none;
+	}
+
+	/* Main */
+
+	section {
+		max-width: 425px;
+		text-align: center;
+	}
+
+
+	/* Aside */
+	
+	aside {
+		align-self: center;
+		align-items: center;
+		font-weight: bold;
+	}
+	
+	aside ul{
+		list-style-type: none;
+		padding-right: 2em;
+	}
+	
+	aside h3{
+		color:#f8bf28;
+		text-decoration: overline;
+	}
+	/* Footer */
+	
+	footer {
+		background: #f8bf28;
+		color: #000;
+		position: relative;
+		width: 800px;
+		height: auto;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+		overflow: auto;
+	}
+	
+	footer li:hover {
+			animation: shake 0.5s;
+			animation-iteration-count: infinite;
+			background: url('../images/pancake-small.png') center no-repeat;
+	}
+	@keyframes shake {
+			0% { transform: translate(1px, 1px) rotate(0deg); }
+			10% { transform: translate(-1px, -2px) rotate(-1deg); }
+			20% { transform: translate(-3px, 0px) rotate(1deg); }
+			30% { transform: translate(3px, 2px) rotate(0deg); }
+			40% { transform: translate(1px, -1px) rotate(1deg); }
+			50% { transform: translate(-1px, 2px) rotate(-1deg); }
+			60% { transform: translate(-3px, 1px) rotate(0deg); }
+			70% { transform: translate(3px, 1px) rotate(-1deg); }
+			80% { transform: translate(-1px, -1px) rotate(1deg); }
+			90% { transform: translate(1px, 2px) rotate(0deg); }
+			100% { transform: translate(1px, -2px) rotate(-1deg); }
+	}
+	#copyright {
+		float: left;
+		margin-top: -25px;
+		font-size: 1em;
+	}
+	
+	#social {
+		float: left;
+		margin-left: -30%;
+	}
+	
+	#social li {
+		display: inline;
+		text-decoration: none;
+	}
+	
+	/* clearfix */
+	
+	.clearfix:after {
+		visibility: hidden;
+		display: block;
+		content: "";
+		clear: both;
+		height: 0;
+		}
+	}
